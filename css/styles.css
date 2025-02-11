@@ -28,6 +28,9 @@ a{
     margin: 0 auto;
 }
 
+
+
+
 /*------------------------------------
 COMPONENTS
 ------------------------------------*/
@@ -35,142 +38,129 @@ COMPONENTS
 /*HEADER*/
 
 header{
-    background-color: #FFFFFF;
-    padding-top: 10px;
-    padding-bottom: 10px;
+    background-color: white;
 }
 
 header .wrapper{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    height: 130px;
+}
+
+h1{
+    font-weight: 600;
+    font-size: 43.34px;
 }
 
 .logo{
     display: flex;
     align-items: center;
-    gap: 10px;
-}
-
-header p{
-    font-size: 36px;
-    font-weight: 700;
-    color: white;
+    gap: 20px;
 }
 
 header ul{
     display: flex;
-    gap: 40px;
+    gap: 30px;
     list-style-type: none;
+    align-items: center;
 }
 
 header a{
+    color: black;
+}
+
+nav a{
+    font-size: 16px;
+    font-weight: 600;
+}
+
+nav span{
     color: white;
 }
 
-header nav a:hover{
-    text-decoration: underline;
+button{
+    background-color: #0E5EA1;
+    border: 0px;
+    border-radius: 5px;
+    padding-top: 4px;
+    padding-left: 11px;
+    padding-bottom: 4px;
+    padding-right: 9px;
 }
 
-/*SECTION BANNIERE*/
+/*SECTION HERO*/
 
-.banniere{
-    background-color: #eeeeee;
+.hero{
+    background-image: url(../images/montagnesalpes.jpg);
+    height: 450px;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
-.banniere .wrapper{
-    height: 200px;
-
+.hero .wrapper{
+    height: 450px;
     display: flex;
+    align-items: center;
     justify-content: center;
-    align-items: center;
 }
 
-h1{
-    font-size: 36px;
-    text-align: center;
-    font-weight: 300;
-    letter-spacing: 7.2px;
-}
-
-/*SECTION TRANSPORT*/
-
-.titre-section{
+.box{
+    width: 450px;
+    background-color: rgba(0, 0, 0, 70%);
     display: flex;
-    justify-content: space-between;
     align-items: center;
-
-    height: 60px;
-
-    background-color: #eeeeee;
-
-    border: solid 1px #d0d0d0;
-
-    margin-top: 80px;
-    margin-bottom: 60px;
-    
-    padding-left: 20px;
-    padding-right: 20px;
+    justify-content: center;
+    gap: 10px;
+    border-radius: 10px;
 }
 
 h2{
-    font-size: 18px;
-    font-weight: 700;
-}
-
-.conteneur-transport{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    gap: 60px;
-
-    margin-bottom: 80px;
-}
-
-.conteneur-transport-invisible{
-    display: none;
-}
-
-h3{
+    color: white;
     font-size: 36px;
-    font-weight: 300;
-    text-align: center;
-    
-    margin-bottom: 0;
+    font-weight: 600;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
-article p{
-    text-align: center;
+h2 span{
+    color: #2FCB48;
+    font-size: 20px;
+    font-weight: 300;
+    font-family: "Roboto", serif;
+    display: block;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
 }
+
+/*SECTION */
+
+.contenu{
+    background-color: #E3E4E4;
+}
+
+.contenu .wrapper{
+    display: grid;
+    padding: 40px;
+}
+
+.conteneur{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.conteneur article{
+    background-color: white;
+    padding: 10px;
+}
+
+
+
+
 
 /*FOOTER*/
-
-footer{
-    background-color: black;
-}
-
-h4{
-    color: white;
-}
-
-footer a{
-    display: inline-block;
-    width: 32px;
-    height: 32px;
-}
-
-footer ul{
-    display: flex;
-    gap: 20px;
-
-    list-style-type: none;
-}
-
-footer .wrapper{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
 
 
 
@@ -179,32 +169,7 @@ footer .wrapper{
     background-image: url("../images/facebook-nb.jpg");
 }
 
-.twitter a{
-    background-image: url("../images/twitter-nb.jpg");
-}
-
-.linkedin a{
-    background-image: url("../images/linkedin-nb.jpg");
-}
-
-.pinterest a{
-    background-image: url("../images/pinterest-nb.jpg");
-}
-
-
 
 .facebook a:hover{
     background-image: url("../images/facebook-survol.jpg");
-}
-
-.twitter a:hover{
-    background-image: url("../images/twitter-survol.jpg");
-}
-
-.linkedin a:hover{
-    background-image: url("../images/linkedin-survol.jpg");
-}
-
-.pinterest a:hover{
-    background-image: url("../images/pinterest-survol.jpg");
 }
