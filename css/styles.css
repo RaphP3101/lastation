@@ -51,6 +51,7 @@ header .wrapper{
 h1{
     font-weight: 600;
     font-size: 43.34px;
+    color: black;
 }
 
 .logo{
@@ -66,27 +67,22 @@ header ul{
     align-items: center;
 }
 
-header a{
-    color: black;
-}
 
-nav a{
-    font-size: 16px;
-    font-weight: 600;
-}
-
-nav span{
+button:hover{
+    background-color: #0E5EA1;
     color: white;
 }
 
 button{
-    background-color: #0E5EA1;
+    background-color: white    ;
     border: 0px;
     border-radius: 5px;
     padding-top: 4px;
     padding-left: 11px;
     padding-bottom: 4px;
     padding-right: 9px;
+    font-size: 16px;
+    font-weight: 700;
 }
 
 /*SECTION HERO*/
@@ -171,6 +167,30 @@ h3{
     border-bottom-style: solid;
 }
 
+.conteneur button{
+    background-color: #B7B7B7;
+    border-radius: 5px;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    margin-right: 45px;
+    margin-left: 45px;
+    height: 40px;
+    width: 150px;
+    margin: 0;
+    margin-left: 50px;
+}
+
+
+.conteneur button span{
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 24px;
+}
+
+.conteneur button:hover{
+    background-color: #0E5EA1;
+    color: white;
+}
 
 
 
